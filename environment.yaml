@@ -1,17 +1,19 @@
-name: crop-engine
+name: geospatial_env
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.11
-  - jupyter
-  - geopandas
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
   - xarray
   - dask
+  - geopandas
   - rioxarray
   - odc-stac
   - pystac-client
-  - planetary-computer
-  - scikit-learn
-  - xgboost
-  - matplotlib
-  - ipykernel
+  - pip:
+    - geocube
