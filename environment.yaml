@@ -1,0 +1,17 @@
+name: crop-engine
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - geopandas
+  - xarray
+  - dask
+  - rioxarray
+  - odc-stac
+  - pystac-client
+  - planetary-computer
+  - scikit-learn
+  - xgboost
+  - matplotlib
+  - ipykernel

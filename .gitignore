@@ -1,0 +1,10 @@
+# Ignore local environment sandboxes
+.conda/
+.mamba/
+envs/
+
+# Ignore Python caching and notebook checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
